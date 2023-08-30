@@ -57,3 +57,11 @@ conda install rospkg
   rosrun rviz rviz -d myrviz.rviz
 ```
 
+10. If you get Could NOT find SDL (missing: SDL_LIBRARY SDL_INCLUDE_DOR) error
+11. 
+```bash
+  sudo apt-get install libsdl1.2-dev
+  sudo apt-get install libsdl-image1.2-dev
+```
+
+
